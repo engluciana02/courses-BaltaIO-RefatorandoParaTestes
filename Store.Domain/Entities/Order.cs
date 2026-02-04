@@ -63,5 +63,9 @@ namespace Store.Domain.Entities
             if (amount == Total())
                this.Status = EnumOrderStatus.WaitingDelivery;
         }
+         public void Cancel()
+        {
+            Status = EnumOrderStatus.Canceled;
+        }
     }
 }
