@@ -8,7 +8,7 @@
         public Customer(string name, string email)
         {
             Name = name;
-            Email = email;
+            Email = email;            
         }
     }
 }
